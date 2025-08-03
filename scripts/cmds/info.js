@@ -16,10 +16,10 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = "Sexy Rocky";
+		const authorName = "MAATERMIND X ROCKY";
 		const ownAge = "『20』";
-		const messenger = " //m.me/Bangladesh.Top.Video.Editor.Rocky.Vai.320";
-		const authorFB = " //www.facebook.com/Bangladesh.Top.Video.Editor.Rocky.Vai.320";
+		const messenger = " //m.me/Alvee.Evan.Rocky.320";
+		const authorFB = " //www.facebook.com/Alvee.Evan.Rocky.320";
 		const authorNumber = "+8801621251318";
 		const Status = "⩸____⩸";
 		const urls = [
