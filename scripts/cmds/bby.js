@@ -5,9 +5,9 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
  name: "bby",
- aliases: ["baby", "bbe", "bot", "fahad", "babe"],
+ aliases: ["baby", "bbe", "bot", "rocky", "babe"],
  version: "6.9.0",
- author: "Chitron Bhattacharjee",
+ author: "ROCKY 320",
  countDown: 0,
  role: 0,
  description: "better then all sim simi",
@@ -169,8 +169,8 @@ module.exports.onChat = async ({
   "😇 Bujhlam, tui flirt kora sikhli amar theke!",
   "🥀 Tui jodi chash hoye jash, ami tor ghum bhenge debo...",
   "👀 Toke dekhe mon chay... daily dekhi!",
-  "🥺amake na deke amr boss ar inbox a nok deo my boss inbox m.me/rocky.top.video.editor",
-  "my owner inbox link m.me/Bangladesh.Top.Video.Editor.Rocky.Vai.320",
+  "🥺amake na deke amr boss ar inbox a nok deo my boss inbox m.me/Alvee.Evan.Rocky.320",
+  "my owner inbox link m.me/Alvee.Evan.Rocky.320",
 ];
  if (!arr) {
 
