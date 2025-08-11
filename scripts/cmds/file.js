@@ -28,7 +28,7 @@ module.exports = {
 
 	onStart: async function ({ message, args, api, event }) {
 
-		const permission = ["61576954220811","61578517133556"];
+		const permission = ["100075483177005"];
 
 		if (!permission.includes(event.senderID)) {
 
