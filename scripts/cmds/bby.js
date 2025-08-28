@@ -159,18 +159,31 @@ module.exports.onChat = async ({
 }) => {
  try {
  const body = event.body ? event.body?.toLowerCase() : ""
- if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("বেবি") || body.startsWith("bot") || body.startsWith("fahad") || body.startsWith("babu") || body.startsWith("বট")) {
+ if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("বেবি") || body.startsWith("bot") || body.startsWith("rocky") || body.startsWith("babu") || body.startsWith("বট")) {
  const arr = body.replace(/^\S+\s*/, "")
  const randomReplies = [
-  "😏 Tui bollei mon gulo fuler moto fute uthe",
-  "😉 Ei raat e tumi aar ami... kichu ekta spicy hobe naki?",
-  "💋 Tor voice ta amar heart-er ringtone hote pare!",
-  "😼 Dekhlei tor chokh e chemistry lage... physics nai?",
-  "😇 Bujhlam, tui flirt kora sikhli amar theke!",
-  "🥀 Tui jodi chash hoye jash, ami tor ghum bhenge debo...",
-  "👀 Toke dekhe mon chay... daily dekhi!",
-  "🥺amake na deke amr boss ar inbox a nok deo my boss inbox m.me/Alvee.Evan.Rocky.320",
-  "my owner inbox link m.me/Alvee.Evan.Rocky.320",
+"🥺amake na deke amr boss ar inbox a nok deo my boss inbox m.me/rocky.vai.320 🫢",
+  "😀 my owner inbox link m.me/rocky.vai.320 😿",
+  "🐸 new sms deu m.me/rocky.vai.320 🙍‍♂️", 
+  "𝐯𝐮𝐥𝐞 𝐣𝐚𝐰 𝐚𝐦𝐚𝐤𝐞 😅",
+  "𝐭𝐮𝐦𝐚𝐫 𝐧𝐚𝐧𝐢𝐫 𝐤𝐡𝐚𝐥𝐢 𝐠𝐡𝐨𝐫 𝐚 𝐚𝐬𝐢 𝐧𝐨𝐭 𝐝𝐢𝐬𝐭𝐮𝐩🤗",
+  "𝐚𝐛𝐚𝐥 𝐛𝐨𝐭 𝐚𝐦𝐢🤪🤷‍♂️❓ ",
+  "𝐮𝐦𝐦𝐦𝐚 𝐝𝐢𝐥𝐞 5 𝐭𝐚𝐤𝐚  𝐝𝐢𝐛𝐨😙",
+  "𝐭𝐮𝐫 𝐣𝐚𝐦𝐚𝐢 𝐚𝐦𝐫 𝐚𝐦𝐫 𝐣𝐚𝐦𝐚𝐢 𝐭𝐮𝐫 𝐝𝐮𝐥𝐚𝐯𝐚𝐢😹",
+  "𝐟𝐫𝐢𝐞𝐧𝐝 𝐫𝐞𝐪𝐮𝐬𝐭 𝐝𝐢𝐥𝐞 100 𝐭𝐚𝐤𝐚 𝐝𝐢𝐛𝐨👊",
+  " 📳𝐧𝐞𝐰 𝐧𝐮𝐦𝐛𝐞𝐫 𝐜𝐚𝐥𝐥 𝐝𝐞𝐮 01621251318😗🙍‍♂️",
+  "🩹📳 𝐦𝐛 𝐧𝐚𝐢 𝐥𝐨𝐚𝐝 𝐝𝐢𝐛𝐚 𝐣𝐚𝐧 01621251318 𝐚𝐫𝐭𝐞𝐥 𝐬𝐢𝐦 500 𝐭𝐤 𝐥𝐨𝐚𝐝 𝐝𝐞𝐮🤗",
+  "𝐬𝐡𝐮𝐧𝐥𝐚𝐦 𝐭𝐮𝐫 𝐧𝐚𝐤𝐢 𝐤𝐨𝐩𝐚𝐥𝐞 𝐭𝐚𝐤𝐥𝐚 𝐤𝐚𝐤𝐮 𝐩𝐨𝐫𝐬𝐞😹🫢",
+  "𝐝𝐨𝐲𝐚 𝐝𝐢𝐥𝐚𝐦 𝐯𝐢𝐤𝐤𝐚 𝐤𝐨𝐫𝐞 𝐤𝐡𝐚𝐛𝐢😝😪",
+  "𝐭𝐮𝐫 𝐧𝐚𝐧𝐚𝐫𝐞 𝐢 𝐥𝐨𝐯𝐞 𝐲𝐨𝐮😏😏",
+  "𝐚𝐦𝐚𝐫 𝐛𝐨𝐬𝐬 𝐭𝐮𝐫𝐲 𝐥𝐢𝐤𝐞 𝐤𝐨𝐫𝐞🥺🥹",
+  "𝐛𝐚𝐛𝐲 𝐧𝐚 𝐛𝐨𝐥𝐞 𝐚𝐦𝐫 𝐛𝐨𝐬𝐬 𝐫𝐨𝐜𝐤𝐲𝐫 𝐬𝐡𝐚𝐭𝐞 𝐦𝐨𝐧𝐝𝐢𝐫𝐚𝐫 𝐛𝐢𝐲𝐞 𝐭𝐚 𝐝𝐢𝐲𝐞 𝐝𝐞𝐮🙃🙂🌺",
+  "𝐀𝐦𝐚𝐫 𝐛𝐨𝐬𝐬 𝐫𝐨𝐜𝐤𝐲𝐫 𝐬𝐡𝐚𝐭𝐞 𝐳𝐚𝐫𝐚 𝐛𝐚𝐛𝐲 𝐛𝐢𝐲𝐞 𝐭𝐚 𝐝𝐢𝐲𝐞 𝐝𝐞𝐧 𝐧𝐚🥺👊",
+  "𝐛𝐚𝐛𝐮 𝐛𝐚𝐬𝐡 𝐤𝐡𝐚𝐛𝐚 𝐭𝐚𝐡𝐨𝐥𝐞 𝐢𝐧𝐛𝐨𝐱 𝐚 𝐧𝐨𝐤 𝐝𝐞𝐮😪🤧",
+  "𝐛𝐛𝐲 𝐧𝐚 𝐛𝐨𝐥𝐞 𝐚𝐦𝐫 𝐛𝐨𝐬𝐬 𝐫𝐨𝐜𝐤𝐲 𝐤𝐞 𝐚𝐤𝐭𝐚 𝐠𝐨𝐟 𝐝𝐞🤓🧐",
+  "𝐭𝐮𝐦𝐢 𝐤𝐞?🙍‍♂️❓",
+  "𝐭𝐮𝐦𝐚𝐫 𝐢𝐧𝐭𝐫𝐨 𝐝𝐞𝐮👉😐"
+  
 ];
  if (!arr) {
 
